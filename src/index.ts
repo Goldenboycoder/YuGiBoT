@@ -6,6 +6,7 @@ import { onInteraction } from "./events/onInteraction";
 import { onReady } from "./events/onReady";
 require('dotenv').config();
 
+console.log = function (){};
 
 (async () => {
     if (!validateEnv()) return;
