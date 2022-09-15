@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "CommonJS",
+      "rootDir": "./src",
+      "outDir": "./prod",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true
+    },
+    "exclude": ["node_modules", "**/node_modules/*","./src/cardinfo.json"],
+    "include": [
+        "./src/**/*",
+        "./src/.env",
+        "./src/config.json"
+    ]
+  }
