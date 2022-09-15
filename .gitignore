@@ -108,4 +108,7 @@ setups/
 /prod/
 /node_modules/
 .env
+src/utils/compression.ts
+src/utils/downloadCardsImages.ts
+src/utils/storeCardsMongo.ts
 cardinfo.json

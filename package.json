@@ -25,7 +25,6 @@
   },
   "main": "./prod/index.js",
   "scripts": {
-    "build": "tsc",
     "start": "npx ts-node ./src/index.ts"
   }
 }
